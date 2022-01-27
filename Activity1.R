@@ -16,7 +16,8 @@ METER_CONVERSION <- 3.281
 #question 1
 
 peaks[,2] <- peaks[,2] / METER_CONVERSION
-
 #question 3
 
 longest_trip <- peaks[which(max(peaks['round_trip']) == peaks['round_trip']),]
+
+
